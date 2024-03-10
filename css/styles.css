@@ -50,6 +50,10 @@ button {
 img {
 Display: block;
 }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 /* ===============HEADER=============== */
 
@@ -138,7 +142,7 @@ display: flex;
     background: #2e2f42;     
 }
 
-.hero-information {
+.hero-section {
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -318,10 +322,7 @@ margin-bottom: auto;
 
 .portfolio-item-text {}
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 
 /* ===============FOOTER=============== */
 
