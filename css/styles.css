@@ -87,6 +87,8 @@ padding-bottom: 24px;
 .header-list {
     display: flex;
     gap: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-item {}
@@ -110,6 +112,8 @@ padding-bottom: 24px;
 .header-contact-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-contact-item {}
@@ -130,13 +134,15 @@ padding-bottom: 24px;
 /* ===============HERO=============== */
 
 .hero {
-    background: #2e2f42;
+    background: #2e2f42; 
+}
+.section-hero {
     padding-top: 188px;
-    padding-bottom: 188px;
-    
+    padding-bottom: 188px;    
 }
 
 .hero-title {
+    
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
