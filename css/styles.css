@@ -50,10 +50,6 @@ button {
 img {
 Display: block;
 }
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 /* ===============HEADER=============== */
 
@@ -119,6 +115,8 @@ display: flex;
 .header-contact-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-contact-item {}
@@ -139,12 +137,13 @@ display: flex;
 /* ===============HERO=============== */
 
 .hero {
-    background: #2e2f42;     
+    background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;     
 }
 
 .hero-section {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    
 }
 
 .hero-title {
@@ -322,7 +321,10 @@ margin-bottom: auto;
 
 .portfolio-item-text {}
 
-
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 /* ===============FOOTER=============== */
 
