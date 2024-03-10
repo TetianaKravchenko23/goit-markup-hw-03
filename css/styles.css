@@ -57,11 +57,8 @@ Display: block;
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-information {
-display: flex;
-padding-right: 15px;
-padding-left: 15px; 
-
+.header-container {
+display: flex; 
 }
 
 .header-navigation {
@@ -102,9 +99,12 @@ padding-left: 15px;
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 
-.header-link:hover, .header-link:focus {
+.header-link:hover, 
+
+.header-link:focus {
     color: #404bbf;
 }
 
@@ -115,8 +115,6 @@ padding-left: 15px;
 .header-contact-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-contact-item {}
@@ -137,16 +135,15 @@ padding-left: 15px;
 /* ===============HERO=============== */
 
 .hero {
-    background: #2e2f42; 
+    background: #2e2f42;     
+}
+
+.hero-information {
     padding-top: 188px;
     padding-bottom: 188px;
 }
-.hero-information {
-
-}
 
 .hero-title {
-    
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
